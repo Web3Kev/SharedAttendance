@@ -4,6 +4,8 @@ import babel from '@rolldown/plugin-babel'
 
 // https://vite.dev/config/
 export default defineConfig({
+  // REPLACE 'your-repo-name' with the name of your GitHub repository
+  base: '/SharedAttendance/', 
   plugins: [
     react(),
     babel({ presets: [reactCompilerPreset()] })
